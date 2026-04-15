@@ -64,10 +64,11 @@ def convert_image_to_markdown(tokenizer, model, image_path, output_dir, prompt=N
         prompt=prompt, 
         image_file=image_path, 
         output_path=output_dir, 
-        base_size=1024, 
+        base_size=768, 
         image_size=768, 
         crop_mode=True, 
-        save_results=True
+        save_results=True,
+        test_compress=True
     )
     
     # Find and return the markdown file
