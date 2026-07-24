@@ -92,7 +92,7 @@ def collate_fn(batch):
 # -------------------------------------------------------
 def train():
     # ========== CONFIG ==========
-    DATA_ROOT = "data/optical_alignment"
+    DATA_ROOT = "data_training"
     QWEN_PATH = "Qwen/Qwen3.6-35B-A3B"
     OUTPUT_DIR = Path("checkpoints/optical_adapter_phase1")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
