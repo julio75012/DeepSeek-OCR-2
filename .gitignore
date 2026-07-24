@@ -1,2 +1,4 @@
 .venv
 output
+data_training
+data_test
